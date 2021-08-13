@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background-color: #5894c1;
+}
+
+.card {
+    background-color: #4d4a41;
+    flex-direction: row;
+    transition: 0.5s;
+    padding: 5px;
+    border-radius: 15px;
+    transform: translateY(0) scale(0.9);
+}
+
+.card:hover {
+    transform: translateY(-9px) scale(1);
+}
+
+.card img {
+    height: 230px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 45%;
+}
+
+.card .phonebtn {
+    position: absolute;
+    right: -15px;
+    text-align: center;
+    top: -15px;
+    border-radius: 8px;
+    background-color: white;
+    z-index: 10;
+    padding: 8px 7px 5px 8px;
+    box-shadow: 3px 6px 15px -13px rgba(0, 0, 0, 0.53) inset;
+    -webkit-box-shadow: 3px 6px 15px -13px rgba(0, 0, 0, 0.53) inset;
+    -moz-box-shadow: 3px 6px 15px -13px rgba(0, 0, 0, 0.53) inset;
+}
+
+.card .phonebtn .fa-phone-alt {
+    color: #29c252;
+    font-size: 1.8rem;
+
+}
+
+.card .card-body p .rounded {
+    height: 20px;
+    width: 20px;
+    padding: 0;
+}
+
+.card .phonebtn:hover {
+    cursor: pointer;
+}
+
+.card .card-body .socialMedia-links {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.card .card-body .socialMedia-links i {
+    font-size: 1.5rem;
+    transition: 0.2s;
+    margin: 0 10px;
+    color: #777a7d;
+    margin-bottom: 15px;
+}
+
+.card .card-body .socialMedia-links i:hover {
+    cursor: pointer;
+    color: #489edb;
+}
+
+.card-title {
+    color: #1d9af2;
+}
+
+.card-text {}
+
+.spinner-box {
+    height: 100%;
+    flex-direction: column;
+}
+
+.spinner-box strong {
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.spinner-box div {
+    width: 30px;
+    margin: auto;
+    height: 30px;
+
+}
+
+.btn-primary {
+    margin-top: 20px;
+    color: #777a7d;
+    color: #0d6efd;
+    background-color: transparent;
+}
+
+.btn-outline-success {
+    background-color: #5894c1;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-outline-success:focus {
+    box-shadow: none;
+}
+
+.btn-primary:hover {
+    background-color: #489edbe5;
+}

@@ -1,0 +1,17 @@
+hr.underline {
+  height: 2px;
+  width: 85%;
+  background-color: gray;
+  margin: auto;
+}
+.container .sections {
+  margin: 50px;
+}
+.section-heading {
+  text-align: center;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.btn-light:hover {
+  background-image: var(--primary-color);
+}
